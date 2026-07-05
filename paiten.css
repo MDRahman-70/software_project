@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eaf7ff;
+}
+
+.patient-form-section{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.patient-form{
+    width:450px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.patient-form h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0f172a;
+}
+
+.input-box{
+    margin-bottom:18px;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    outline:none;
+    font-size:16px;
+}
+
+.input-box textarea{
+    height:100px;
+    resize:none;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#0ea5e9;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0284c7;
+}

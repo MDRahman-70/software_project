@@ -1,0 +1,99 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f7fb;
+}
+
+.booking-page{
+padding:40px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+display:flex;
+gap:30px;
+}
+
+/* LEFT */
+.doctor-info{
+flex:1;
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.doctor-info img{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.info-box{
+margin-top:15px;
+padding:15px;
+background:#f1f5f9;
+border-radius:10px;
+}
+
+/* RIGHT */
+.booking-form{
+flex:2;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.booking-form h2{
+margin-bottom:20px;
+}
+
+label{
+font-weight:bold;
+font-size:14px;
+margin-top:10px;
+display:block;
+}
+
+input, textarea{
+width:100%;
+padding:12px;
+margin-top:5px;
+border:1px solid #ddd;
+border-radius:10px;
+outline:none;
+}
+
+textarea{
+height:120px;
+resize:none;
+}
+
+button{
+margin-top:20px;
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+font-size:16px;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+.container{
+flex-direction:column;
+}
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors</title>
+
+    <link rel="stylesheet" href="Doctor.css">
+     <link rel="stylesheet" href="nav.css">
+      <link rel="stylesheet" href="footer.css">
+    <script src="Button_script.js"></script>
+     <script src="search.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"data-link="index.html">MediCare</div>
+
+        <ul>
+            <li><a href="#" data-link="index.html">Home</a></li>
+            <li><a href="#"data-link="Doctor.html">Doctors</a></li>
+            <li><a href="#"data-link="service.html">Services</a></li>
+            <li><a href="#"data-link="contact.html">Contact</a></li>
+        </ul>
+
+        <button>Login</button>
+    </nav>
+
+
+
+<section class="doctors">
+
+    <div class="section-header">
+        <span>OUR SPECIALISTS</span>
+        <h2>Meet Our Expert Doctors</h2>
+        <p>Book appointments with experienced and trusted doctors.</p>
+    </div>
+
+   <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Doctor or Specialization...">
+</div>
+
+    <div class="doctor-grid">
+
+        <!-- Doctor 1 -->
+       <div class="doctor-card" data-name="ahmed rahman cardiologist">
+            <div class="doctor-image">
+                <img src="images/doc1.jpg" alt="">
+                <!-- <span class="status">🟢 Available</span> -->
+            </div>
+
+            <div class="doctor-content">
+                <h3>Dr. Ahmed Rahman</h3>
+                <p class="speciality">Cardiologist</p>
+
+                <div class="rating">
+                    ⭐ 4.9 <span>(320 Reviews)</span>
+                </div>
+
+                <div class="info">
+                    <div>
+                        <h4>10+</h4>
+                        <span>Years</span>
+                    </div>
+
+                    <div>
+                        <h4>800৳</h4>
+                        <span>Fee</span>
+                    </div>
+
+                    <div>
+                        <h4>1200+</h4>
+                        <span>Patients</span>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="#" data-link="doctor_p1.html">View Profile</a>
+                    <a href="#" data-link="appointment.html " >Book Appointment</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="doctor-card" data-name="Sarah Islam dermatologist">
+            <div class="doctor-image">
+                <img src="images/doc2.jpg" alt="">
+                <!-- <span class="status">🟢 Available</span> -->
+            </div>
+
+            <div class="doctor-content">
+                <h3>Dr. Sarah Islam</h3>
+                <p class="speciality">Dermatologist</p>
+
+                <div class="rating">
+                    ⭐ 4.8 <span>(250 Reviews)</span>
+                </div>
+
+                <div class="info">
+                    <div>
+                        <h4>8+</h4>
+                        <span>Years</span>
+                    </div>
+
+                    <div>
+                        <h4>700৳</h4>
+                        <span>Fee</span>
+                    </div>
+
+                    <div>
+                        <h4>950+</h4>
+                        <span>Patients</span>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="#" class="profile-btn">View Profile</a>
+                     <a href="#" data-link="appoint2.html ">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Doctor 3 -->
+         <div class="doctor-card" data-name="Tanvir Hasan neurologist">
+            <div class="doctor-image">
+                 <img src="images/doc3.jpg" alt="">
+                <!-- <span class="status">🟢 Available</span> -->
+            </div>
+
+            <div class="doctor-content">
+                <h3>Dr. Tanvir Hasan</h3>
+                <p class="speciality">Neurologist</p>
+
+                <div class="rating">
+                    ⭐ 5.0 <span>(410 Reviews)</span>
+                </div>
+
+                <div class="info">
+                    <div>
+                        <h4>12+</h4>
+                        <span>Years</span>
+                    </div>
+
+                    <div>
+                        <h4>1000৳</h4>
+                        <span>Fee</span>
+                    </div>
+
+                    <div>
+                        <h4>1700+</h4>
+                        <span>Patients</span>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="#" class="profile-btn">View Profile</a>
+                    <a href="#" data-link="appoint3.html ">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>

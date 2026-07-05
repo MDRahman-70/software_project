@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Appointment</title>
+
+<link rel="stylesheet" href="appointe.css">
+<script src="Button_script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<section class="booking-page">
+
+    <div class="container">
+
+        <!-- LEFT INFO -->
+        <div class="doctor-info">
+
+            <img src="images/doc1.jpg" alt="Doctor">
+
+            <h1 id="doctorName">Dr. Ahmed Rahman</h1>
+            <p>Cardiologist</p>
+
+            <div class="info-box">
+                <p>⭐ 4.9 Rating</p>
+                <p>10+ Years Experience</p>
+                <p>Fee: 800৳</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="booking-form">
+
+            <h2>Book Your Appointment</h2>
+
+            <form>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter email">
+
+                <label>Phone</label>
+                <input type="tel" placeholder="Enter phone number">
+
+                <label>Select Date</label>
+                <input type="date">
+
+                <label>Problem Description</label>
+                <textarea placeholder="Describe your issue..."></textarea>
+
+                <button type="button" onclick="goPayment()">
+                    Confirm & Continue
+                </button>
+                <button type="button" data-link="Doctor.html" ">
+                    Back
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="book.js"></script>
+
+</body>
+</html>
